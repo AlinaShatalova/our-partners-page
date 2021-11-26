@@ -91,7 +91,8 @@ a {
     background-color: #fff;
     border: 1px solid #EBEBF1;
     border-radius: 5px;
-    width: 270px;
+    /* width: 270px; */
+    width: calc(1/4*100% - (1 - 1/4)*30px);
     height: 120px;
 }
 .main-content__card a {
